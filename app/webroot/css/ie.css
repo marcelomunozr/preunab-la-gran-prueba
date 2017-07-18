@@ -1,0 +1,17 @@
+.profile-container{
+	background: #fff!important;
+}
+.profile-container:before{
+	background: none!important;
+}
+.el-perfil .col-4{
+	background: none!important;
+	background-color: none!important;
+	background-image: none!important;
+	filter:none!important;
+	max-height: 480px!important;
+	height: 480px!important;
+}
+.bg-principal{
+	top:0!important;
+}

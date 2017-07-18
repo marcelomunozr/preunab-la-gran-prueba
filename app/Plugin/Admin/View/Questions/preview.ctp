@@ -1,0 +1,1 @@
+<?php echo $this->element('/questions/previews/'.strtolower($question[0]['Questions']['type']), array('question' => $question[0]['Questions'], 'options' => $options)); ?>       

@@ -1,0 +1,60 @@
+	<a href="#">
+	    <img src="images/casita.png" class="to-home">
+	</a>
+	<h3 class="titulo">Bienvenido a la<br>
+	    <span class="sporter">Etapa 1</span>
+	</h3>
+	<div>
+	    <div class="info">
+	        <div class="overlay-info" style="display: none;">
+        		<i class="fa fa-edit"></i> Ver perfil
+        	</div>
+	        <div class="name"><?= $this->Session->read('Session.Player.fullname') ?></div>
+	        <div class="clearfix"></div>
+	        <div class="img-avatar-top">
+	            <img src="http://graph.facebook.com/<?= $this->Session->read('Session.Player.facebook_id') ?>/picture?type=normal" class="avatar">
+	        </div>
+	        <div class="puntos-top">
+	            <div class="points points-general"><span><?= $this->Session->read('Session.Player.points') ?></span> Pts.</div>
+	            <div class="ranking ranking-general">Ranking <span><?= $this->Session->read('Session.Player.rank_global') ?></span></div>
+	            <div class="lives">
+	            	<?php
+	            		for($i=0; $i< $this->Session->read('Session.Player.lives'); $i++):
+							echo '<img src="images/cuchara.png">';
+						endfor;
+					?>
+				</div>
+				<div class="time-counter">
+					<span id="timer"></span>&nbsp; para tener vidas nuevamente
+				</div>
+	        </div>
+	        <div class="clearfix"></div>
+	    </div>
+	    <div class="links-externos">
+	        <ul>
+	            <li><a href="http://www.orientaunab.cl/" target="_blank"><div class="btn orienta-preunab"></div></a></li>
+	            <li><a href="http://www.preunab.cl/?_ga=1.214460830.806873815.1406730160" target="_blank"><div class="btn preunab-link"></div></a></li>
+	            <li><a href="http://www.unab.cl" target="_blank"><div class="btn unab-link"></div></a></li>
+	            <li><a href="#" target="_blank" class="button-winners"><div class="btn winners"></div></a></li>
+	            <li><a href="https://play.google.com/store/apps/details?id=cl.multinet.lagranprueba" target="_blank"><div class="btn google-play"></div></a></li>
+	        </ul>
+	    </div>
+	</div>
+	<div class="sidebar-bottom">
+	    <img src="images/premios.png" class="lospremios">
+	    <p>Recuerda que mientras más avances podrás ganar espectaculares premios.</p>
+	</div>
+<?php 
+	if($this->Session->read('Session.Player.lives') <= 0){
+		if($this->Session->read('Session.Player.wait') == 0){ ?>
+		<script>
+			window.eltimeout = true;
+			restartLives();
+		</script>
+	<?php	}else{	?>
+		<script>
+			var seconds = <?= $this->Session->read('Session.Player.wait') ?>;
+			timeout(seconds);
+		</script><?php
+		}
+	} ?>

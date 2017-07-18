@@ -1,0 +1,856 @@
+.mapa-content .thug{
+    position: absolute;
+    display: none;
+}
+.img-mapa{
+    position: absolute;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+/**Kama sutra de mapa de Matematicas (por las posiciones, no homo intended)***/
+    
+.mapa-content .thug.math.round-1{
+    top: 20%;
+    left: 62%;
+}
+
+.mapa-content .thug.math.round-2{
+    top: 27%;
+    left: 42%;      
+}
+
+.mapa-content .thug.math.round-3{
+    top: 55%;
+    left: 20%;  
+}
+
+.mapa-content .thug.math.round-4{
+    top: 22%;
+    left: 23%;
+}
+
+.mapa-content .thug.math.round-5{
+    top: 52%;
+    left: 18%;  
+}
+
+.mapa-content .thug.math.round-6{
+    top: 25%;
+    left: 40%;
+}
+
+.mapa-content .thug.math.round-7{
+    top: 32%;
+    left: 61%;
+}
+
+.mapa-content .thug.math.round-8{
+    top: 16%;
+    left: 58%;
+}
+
+.mapa-content .thug.math.round-9{
+    top: 42%;
+    left: 46%;
+}
+
+.mapa-content .thug.math.round-10{
+    top: 71%;
+    left: 14%;
+}
+
+.mapa-content .thug.math.round-11{
+    top: 33%;
+    left: 0%;
+}
+
+.mapa-content .thug.math.round-12{
+    top: 26%;
+    left: 25%;
+}
+
+.mapa-content .thug.math.round-13{
+    top: 27%;
+    left: 50%;
+}
+
+.mapa-content .thug.math.round-14{
+    top: 65%;
+    left: 45%;
+}
+
+.mapa-content .thug.math.round-15{
+    top: 28%;
+    left: 37%;
+}
+
+.img-mapa.math{
+    top: -350%;
+}
+
+.img-mapa.math.round-1,
+.img-mapa.math.round-2,
+.img-mapa.math.round-3{
+    top: 0%;
+}
+
+.img-mapa.math.round-4,
+.img-mapa.math.round-5,
+.img-mapa.math.round-6,
+.img-mapa.math.round-7{
+    top: -70%;
+}
+
+.img-mapa.math.round-8,
+.img-mapa.math.round-9{
+    top: -130%;
+    left: -21%;
+}
+
+.img-mapa.math.round-10,
+.img-mapa.math.round-11,
+.img-mapa.math.round-12{
+    top: -150%;
+    left: -21%;
+}
+
+.img-mapa.math.round-13{
+    top: -210%;
+    left: -20%;
+}
+.img-mapa.math.round-14,
+.img-mapa.math.round-15{
+    top: -240%;
+    left: -10%;
+}
+
+/**Kama sutra de mapa de historia (por las posiciones, no homo intended)***/
+
+.mapa-content .thug.history.round-1{
+    top: 20%;
+    left: 17%;
+}
+
+.mapa-content .thug.history.round-2{
+    top: 35%;
+    left: 46%;
+}
+
+.mapa-content .thug.history.round-3{
+    top: 65%;
+    left: 23%;
+}
+
+.mapa-content .thug.history.round-4{
+    top: 81%;
+    left: 43%;
+}
+
+.mapa-content .thug.history.round-5{
+    top: 80%;
+    left: 54%;
+}
+
+.mapa-content .thug.history.round-6{
+    top: 17%;
+    left: 70%;
+}
+
+.mapa-content .thug.history.round-7{
+    top: 25%;
+    left: 47%;
+}
+
+.mapa-content .thug.history.round-8{
+    top: 25%;
+    left: 24%;
+}
+
+.mapa-content .thug.history.round-9{
+    top: 35%;
+    left: 0%;
+}
+
+.mapa-content .thug.history.round-10{
+    top: 30%;
+    left: 30%;
+}
+
+.mapa-content .thug.history.round-11{
+    top: 14%;
+    left: 4%;
+}
+
+.mapa-content .thug.history.round-12{
+    top: 37%;
+    left: 20%;
+}
+
+.mapa-content .thug.history.round-13{
+    top: 50%;
+    left: 46%;
+}
+
+.mapa-content .thug.history.round-14{
+    top: 35%;
+    left: 30%;
+}
+
+.mapa-content .thug.history.round-15{
+    top: 55%;
+    left: 50%;
+}
+
+.img-mapa.history{
+    top: -320%;
+    left: -30%;
+}
+
+.img-mapa.history.round-1,
+.img-mapa.history.round-2,
+.img-mapa.history.round-3,
+.img-mapa.history.round-4,
+.img-mapa.history.round-5{
+    top: 0%;
+}
+
+.img-mapa.history.round-6,
+.img-mapa.history.round-7,
+.img-mapa.history.round-8,
+.img-mapa.history.round-9{
+    top: -120%;
+    left: -30%;
+}
+
+.img-mapa.history.round-10{
+    top: -150%;
+    left: 10%;
+}
+
+.img-mapa.history.round-11,
+.img-mapa.history.round-12,
+.img-mapa.history.round-13{
+    top: -200%;
+    left: -20%;
+}
+
+.img-mapa.history.round-14,
+.img-mapa.history.round-15{
+    top: -220%;
+    left: -60%;
+}
+
+/**Kama sutra de mapa de lenguaje (por las posiciones, no homo intended)***/
+.img-mapa.language{
+    top: -440%;
+    left: -20%;
+}
+
+.img-mapa.language.round-1,
+.img-mapa.language.round-2,
+.img-mapa.language.round-3,
+.img-mapa.language.round-6,
+.img-mapa.language.round-7{
+    top: -30%;
+}
+.img-mapa.language.round-8,
+.img-mapa.language.round-10,
+.img-mapa.language.round-9{
+    top: -80%;
+}
+
+.img-mapa.language.round-4,
+.img-mapa.language.round-5,
+.img-mapa.language.round-11{
+    top: -130%;
+    left: -10%;
+}
+
+.img-mapa.language.round-12,
+.img-mapa.language.round-13,
+.img-mapa.language.round-14{
+    top: -160%;
+    left: 0%;
+}
+
+.img-mapa.language.round-15{
+    top: -260%;
+    left: -10%;
+}
+
+.mapa-content .thug.language.round-1{
+    top: 37%;
+    left: 10%;
+}
+
+.mapa-content .thug.language.round-2{
+    top: 75%;
+    left: 17%;
+}
+
+.mapa-content .thug.language.round-3{
+    top: 20%;
+    left: 25%;  
+}
+
+.mapa-content .thug.language.round-4{
+    top: 20%;
+    left: 45%;
+}
+
+.mapa-content .thug.language.round-5{
+    top: 17%;
+    left: 21%;
+}
+
+.mapa-content .thug.language.round-6{
+    top: 32%;
+    left: 48%;
+}
+
+.mapa-content .thug.language.round-7{
+    top: 15%;
+    left: 35%;
+}
+
+.mapa-content .thug.language.round-8{
+    top: 43%;
+    left: 37%;
+}
+
+.mapa-content .thug.language.round-9{
+    top: 30%;
+    left: 60%;
+}
+
+.mapa-content .thug.language.round-10{
+    top: 80%;
+    left: 42%;
+}
+
+.mapa-content .thug.language.round-11{
+    top: 82%;
+    left: 50%;
+}
+
+.mapa-content .thug.language.round-12{
+    top: 80%;
+    left: 56%;
+}
+
+.mapa-content .thug.language.round-13{
+    top: 67%;
+    left: 30%;
+}
+
+.mapa-content .thug.language.round-14{
+    top: 15%;
+    left: 15%;
+}
+
+.mapa-content .thug.language.round-15{
+    top: 24%;
+    left: 30%;
+}
+
+/**Kama sutra de mapa de matematicas (por las posiciones, no homo intended)***/
+.img-mapa.science{
+    top: -420%;
+}
+
+.img-mapa.science.round-1,
+.img-mapa.science.round-2{
+    top: 10%;
+}
+
+.img-mapa.science.round-3,
+.img-mapa.science.round-4,
+.img-mapa.science.round-5{
+    top: -60%;
+    left: -25%;
+}
+
+.img-mapa.science.round-6,
+.img-mapa.science.round-7,
+.img-mapa.science.round-8,
+.img-mapa.science.round-9{
+    top: -140%;
+    left: -5%;
+}
+
+.img-mapa.science.round-6,
+.img-mapa.science.round-7,
+.img-mapa.science.round-8,
+.img-mapa.science.round-9{
+    top: -140%;
+    left: -5%;
+}
+
+.img-mapa.science.round-10,
+.img-mapa.science.round-11,
+.img-mapa.science.round-12{
+    top: -190%;
+    left: 15%;
+}
+
+.img-mapa.science.round-13,
+.img-mapa.science.round-14{
+    top: -240%;
+    left: -43%;
+}
+
+.img-mapa.science.round-15{
+    top: -330%;
+    left: -10%;
+}
+
+.mapa-content .thug.science.round-1{
+    top: 25%;
+    left: 53%;
+}
+
+.mapa-content .thug.science.round-2{
+    top: 70%;
+    left: 43%;
+}
+
+.mapa-content .thug.science.round-3{
+    top: 40%;
+    left: 30%;  
+}
+
+.mapa-content .thug.science.round-4{
+    top: 20%;
+    left: 60%;
+}
+
+.mapa-content .thug.science.round-5{
+    top: 65%;
+    left: 57%;
+}
+
+.mapa-content .thug.science.round-6{
+    top: 12%;
+    left: 55%;
+}
+
+.mapa-content .thug.science.round-7{
+    top: 10%;
+    left: 42%;
+}
+
+.mapa-content .thug.science.round-8{
+    top: 10%;
+    left: 12%;
+}
+
+.mapa-content .thug.science.round-9{
+    top: 37%;
+    left: 12%;
+}
+
+.mapa-content .thug.science.round-10{
+    top: 37%;
+    left: 10%;
+}
+
+.mapa-content .thug.science.round-11{
+    top: 15%;
+    left: 46%;
+}
+
+.mapa-content .thug.science.round-12{
+    top: 32%;
+    left: 70%;
+}
+
+.mapa-content .thug.science.round-13{
+    top: 10%;
+    left: 45%;
+}
+
+.mapa-content .thug.science.round-14{
+    top: 80%;
+    left: 52%;
+}
+
+.mapa-content .thug.science.round-15{
+    top: 41%;
+    left: 50%;
+}
+
+
+
+/**Kama sutra de mapa de matematicas (por las posiciones, no homo intended)***/
+.img-mapa.chemistry{
+    top: -420%;
+}
+
+.img-mapa.chemistry.round-1{
+    top: 10%;
+}
+
+
+.img-mapa.chemistry.round-2,
+.img-mapa.chemistry.round-3,
+.img-mapa.chemistry.round-4,
+.img-mapa.chemistry.round-5{
+    top: -59%;
+}
+
+.img-mapa.chemistry.round-6,
+.img-mapa.chemistry.round-7,
+.img-mapa.chemistry.round-8,
+.img-mapa.chemistry.round-9{
+    top: -140%;
+    left: -5%;
+}
+
+.img-mapa.chemistry.round-6,
+.img-mapa.chemistry.round-7,
+.img-mapa.chemistry.round-8,
+.img-mapa.chemistry.round-9{
+    top: -140%;
+    left: -5%;
+}
+
+.img-mapa.chemistry.round-10,
+.img-mapa.chemistry.round-11,
+.img-mapa.chemistry.round-12{
+    top: -190%;
+    left: 15%;
+}
+
+.img-mapa.chemistry.round-13,
+.img-mapa.chemistry.round-14{
+    top: -240%;
+    left: -43%;
+}
+
+.img-mapa.chemistry.round-15{
+    top: -330%;
+    left: -10%;
+}
+
+.mapa-content .thug.chemistry.round-1{
+    top: 25%;
+    left: 53%;
+}
+
+.mapa-content .thug.chemistry.round-2{
+    top: 20%;
+    left: 40%;
+}
+
+.mapa-content .thug.chemistry.round-3{
+    top: 52%;
+    left: 37%;  
+}
+
+.mapa-content .thug.chemistry.round-4{
+    top: 33%;
+    left: 80%;
+}
+
+.mapa-content .thug.chemistry.round-5{
+    top: 65%;
+    left: 85%;
+}
+
+.mapa-content .thug.chemistry.round-6{
+    top: 18%;
+    left: 66%;
+}
+
+.mapa-content .thug.chemistry.round-7{
+    top: 16%;
+    left: 41%;
+}
+
+.mapa-content .thug.chemistry.round-8{
+    top: 16%;
+    left: 8%;
+}
+
+.mapa-content .thug.chemistry.round-9{
+    top: 41%;
+    left: 23%;
+}
+
+.mapa-content .thug.chemistry.round-10{
+    top: 35%;
+    left: 16%;
+}
+
+.mapa-content .thug.chemistry.round-11{
+    top: 20%;
+    left: 43%;
+}
+
+.mapa-content .thug.chemistry.round-12{
+    top: 23%;
+    left: 76%;
+}
+
+.mapa-content .thug.chemistry.round-13{
+    top: 10%;
+    left: 39%;
+}
+
+.mapa-content .thug.chemistry.round-14{
+    top: 75%;
+    left: 48%;
+}
+
+.mapa-content .thug.chemistry.round-15{
+    top: 33%;
+    left: 38%;
+}
+
+/**Kama sutra de mapa de matematicas (por las posiciones, no homo intended)***/
+.img-mapa.physics{
+    top: -420%;
+}
+
+.img-mapa.physics.round-1,
+.img-mapa.physics.round-2,
+.img-mapa.physics.round-3,
+.img-mapa.physics.round-4{
+    top: -12%;
+}
+
+
+.img-mapa.physics.round-5,
+.img-mapa.physics.round-6,
+.img-mapa.physics.round-7,{
+    top: -79%;
+}
+
+
+.img-mapa.physics.round-8,
+.img-mapa.physics.round-9{
+    top: -140%;
+    left: -5%;
+}
+
+.img-mapa.physics.round-6,
+.img-mapa.physics.round-7,
+.img-mapa.physics.round-8,
+.img-mapa.physics.round-9{
+    top: -140%;
+    left: -5%;
+}
+
+.img-mapa.physics.round-10,
+.img-mapa.physics.round-11,
+.img-mapa.physics.round-12{
+    top: -166%;
+    left: -5%;
+}
+
+.img-mapa.physics.round-13,
+.img-mapa.physics.round-14{
+    top: -210%;
+    left: -2%;
+}
+
+.img-mapa.physics.round-15{
+    top: -171%;
+    left: -30%;
+}
+
+.mapa-content .thug.physics.round-1{
+    top: 17%;
+    left: 34%;
+}
+
+.mapa-content .thug.physics.round-2{
+    top: 53%;
+    left: 42%;
+}
+
+.mapa-content .thug.physics.round-3{
+    top: 75%;
+    left: 87%;
+}
+
+.mapa-content .thug.physics.round-4{
+    top: 33%;
+    left: 80%;
+}
+
+.mapa-content .thug.physics.round-5{
+    top: 15%;
+    left: 59%;
+}
+
+.mapa-content .thug.physics.round-6{
+    top: 45%;
+    left: 48%;
+}
+
+.mapa-content .thug.physics.round-7{
+    top: 76%;
+    left: 15%;
+}
+
+.mapa-content .thug.physics.round-8{
+    top: 16%;
+    left: 33%;
+}
+
+.mapa-content .thug.physics.round-9{
+    top: 21%;
+    left: 68%;
+}
+
+.mapa-content .thug.physics.round-10{
+    top: 5%;
+    left: 89%;
+}
+
+.mapa-content .thug.physics.round-11{
+    top: 32%;
+    left: 52%;
+}
+
+.mapa-content .thug.physics.round-12{
+    top: 59%;
+    left: 24%;
+}
+
+.mapa-content .thug.physics.round-13{
+    top: 49%;
+    left: 43%;
+}
+
+.mapa-content .thug.physics.round-14{
+    top: 23%;
+    left: 63%;
+}
+
+.mapa-content .thug.physics.round-15{
+    top: 33%;
+    left: 64%;
+}
+
+/**Kama sutra de mapa de matematicas (por las posiciones, no homo intended)***/
+.img-mapa.biology{
+    top: -420%;
+}
+
+.img-mapa.biology.round-1,
+.img-mapa.biology.round-2{
+    top: -20%;
+}
+
+
+
+.img-mapa.biology.round-3,
+.img-mapa.biology.round-4{
+    top: -59%;
+}
+
+.img-mapa.biology.round-5,
+.img-mapa.biology.round-6,
+.img-mapa.biology.round-7{
+    top: -110%;
+    left: 15%;
+}
+
+.img-mapa.biology.round-8,
+.img-mapa.biology.round-9,
+.img-mapa.biology.round-10,
+.img-mapa.biology.round-11{
+    top: -150%;
+    left: -5%;
+}
+
+.img-mapa.biology.round-12,
+.img-mapa.biology.round-13,
+.img-mapa.biology.round-14{
+    top: -230%;
+    left: 5%;
+}
+
+.img-mapa.biology.round-15{
+    top: -290%;
+    left: -10%;
+}
+
+.mapa-content .thug.biology.round-1{
+    top: 25%;
+    left: 64%;
+}
+
+.mapa-content .thug.biology.round-2{
+    top: 30%;
+    left: 44%;
+}
+
+.mapa-content .thug.biology.round-3{
+    top: 22%;
+    left: 22%;  
+}
+
+.mapa-content .thug.biology.round-4{
+    top: 63%;
+    left: 23%;
+}
+
+.mapa-content .thug.biology.round-5{
+    top: 40%;
+    left: 33%;
+}
+
+.mapa-content .thug.biology.round-6{
+    top: 15%;
+    left: 55%;
+}
+
+.mapa-content .thug.biology.round-7{
+    top: 16%;
+    left: 62%;
+}
+
+.mapa-content .thug.biology.round-8{
+    top: 25%;
+    left: 62%;
+}
+
+.mapa-content .thug.biology.round-9{
+    top: 49%;
+    left: 49%;
+}
+
+.mapa-content .thug.biology.round-10{
+    top: 50%;
+    left: 28%;
+}
+
+.mapa-content .thug.biology.round-11{
+    top: 59%;
+    left: 18%;
+}
+
+.mapa-content .thug.biology.round-12{
+    top: 16%;
+    left: 43%;
+}
+
+.mapa-content .thug.biology.round-13{
+    top: 30%;
+    left: 61%;
+}
+
+.mapa-content .thug.biology.round-14{
+    top: 64%;
+    left: 39%;
+}
+
+.mapa-content .thug.biology.round-15{
+    top: 40%;
+    left: 46%;
+}

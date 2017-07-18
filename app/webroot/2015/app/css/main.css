@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Sports World-Regular';
+  src: url('../fonts/Sports-World-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Sports-World-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Sports-World-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Sports-World-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Sports-World-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+     font-weight: normal;
+}
+body {
+	background-color: #ffb41e;/**/
+	font-size: 12px;
+	line-height: normal;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Sports World-Regular','Alfa Slab One','Open Sans',sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+	font-weight: normal;
+}
+.img-responsive{
+	max-width: 100%;
+}
+.transitions{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.clearfix {
+	clear: both;
+}
+.top-space{
+	background: #d9a02a;
+}
+.air-10{
+	padding: 10px 0;
+}
+.air-20{
+	padding: 20px 0;
+	clear: both;
+}
+.txt-center{
+	text-align: center;
+}
+img.center{
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	position: relative;
+}
+.bg-principal{
+	padding: 0 !important;
+	background-position: top center;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	background: #eca10d url(../images/bg.png) no-repeat center top;
+	background-size: 100%;
+}
+.logo{
+	background: url(../images/logo.png) no-repeat;
+	width:189px;
+	height:117px;
+	display:block;
+	text-indent:-9999px;
+	margin: 5px auto;
+}
+.bg-principal h2{
+	padding: 0 20px;
+	margin: 5px 0;
+	font-size: 18px;
+	line-height: 18px;
+}
+.bg-principal p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	padding: 0 20px;
+	color: #000;
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 400;
+	margin: 0 auto 10px;
+}
+.slide-app{
+	background: #ffb41e;
+	position: relative;
+	height: 100%;
+	vertical-align: bottom;
+}
+ul.menu{
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+ul.menu li{
+	width: 33.33333333%;
+	padding:5px 20px 10px;
+	float: left;
+	text-align: center;
+}
+.menu .iconos{
+	width:58px;
+	height:56px;
+	display:block;
+	text-indent:-9999px;
+	margin: 5px auto;
+}
+.menu .iconos.perfil{
+	background: url(../images/perfil.png) no-repeat;
+}
+.menu .iconos.ganadores{
+	background: url(../images/ganadores.png) no-repeat;
+}
+.menu .iconos.ranking{
+	background: url(../images/ranking.png) no-repeat;
+}
+ul.menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+.pitagoras{
+	background: url(../images/pitagoras.png) no-repeat;
+	width:163px;
+	height:290px;
+	display:block;
+	text-indent:-9999px;
+	position: relative;
+	top:-25px;
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+	.bg-principal{ 
+		background: #eca10d url(../images/bg@2x.png);
+		background-size: 100%;
+	}
+	.menu .iconos.perfil{
+		background: url(../images/perfil@2x.png) no-repeat;
+		background-size: contain;
+	}
+	.logo {
+		background: url(../images/logo@2x.png) no-repeat;
+		background-size: contain;
+	}
+	.menu .iconos.ganadores{
+		background: url(../images/ganadores@2x.png) no-repeat;
+		background-size: contain;
+	}
+	.menu .iconos.ranking{
+		background: url(../images/ranking@2x.png) no-repeat;
+		background-size: contain;
+	}
+	.pitagoras{
+		background: url(../images/pitagoras@2x.png) no-repeat;
+		background-size: contain;
+	}
+}
